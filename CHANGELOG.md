@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 **Commit Delta**: N/A
 
-**Released**: 2019.12.10
+**Released**: 2019.12.12
 
 **Summary**:
 
