@@ -52,7 +52,7 @@ jobs:
       deploy:
         provider: releases
         api_key:
-          secure:
+          secure: rHu/SRqH+8s3fnx27gxHUl4GSJdkEpKb3STbhQTkGHf9XZJkhu5GBKZOdoISKmspyJHuO4RzvVL1XMitbB0CXh3YaWHxg8N2A9gp86KBbKuyJIOR5NV3mQS6GUjzU+Vr5sgI1bUFDO8R3x7ooP6cHgfQc3WYkuLJrAwsb1NrADFNR9hVnJ1ZmtAE2uqLTKRUaz1Hn4Ku6wFKSA7zmWQMjnoJG6qHPPU0M3BSuLuCpVsN1p5L4nQ0L7KyHO4iXhDhe/BoRwSZBbRJxOaF+qmM4fDxk9WKiz86Dg9ADHTu5i7YZJ2WkaEdVIy/ZuyHSe4urR+m3JGRrKte3b/ZvMtQscif4ipfOgnJ7a6XtilPvsshvmeopkrhfDlQkcgmfDC3LAoI5d8ibfJzgBoeWNvnS3auyzgxcoJ5XwKuKVNvYHtQ8TgGrKBWkk3IHJRXTFMiy/EEu9gN4omb4kf8VGXK7pOL3jcfCh2IBNsmfOWZD9GoDmdwsgwVMR2gQMEr3wpMUtytCzllm55+GxJ7qdmEDm1BGrmRp+Ldn9iS4fChcMEuf0NHF+8ob3mVEHeuVlwD9FxxfqZDoRcGoZ1oFNnwxm0ziul/yKPsYVip9hXzM9wMKEXqJ++mxwhMLbRQ19/IoM3PAs8OwiLyCfth+qcsPFglRoWeYar5Cnt981JFf1A=
         name: $RELEASE_VERSION
         body: $RELEASE_BODY
         tag_name: $RELEASE_VERSION
