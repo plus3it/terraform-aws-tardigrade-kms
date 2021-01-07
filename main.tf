@@ -1,5 +1,5 @@
 locals {
-  keys_map = var.create_keys ? { for key in var.keys : key.alias => key } : {}
+  keys_map = { for key in var.keys : key.alias => key }
 }
 
 resource "aws_kms_key" "this" {
