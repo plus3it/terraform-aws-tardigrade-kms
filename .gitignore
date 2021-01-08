@@ -8,6 +8,9 @@
 # .tfvars files
 *.tfvars
 
+# terraform lock
+.terraform.lock.hcl
+
 # ignore this file
 !tfmodule-template.tf
 
@@ -18,3 +21,8 @@ tardigrade-ci/
 # eclint
 .git/
 
+# terratest
+tests/go.*
+
+# os x
+.DS_Store
