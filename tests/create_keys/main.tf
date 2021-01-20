@@ -21,7 +21,7 @@ locals {
 }
 
 module "create_key" {
-  source      = "../../"
-  create_keys = true
-  keys        = local.keys
+  source = "../../"
+
+  keys = local.keys
 }
