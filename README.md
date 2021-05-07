@@ -12,18 +12,23 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+
+## Resources
+
+| Name | Type |
+|------|------|
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| keys | Schema list of KMS Keys, consisting of alias, (OPTIONAL) description, (OPTIONAL) deletion\_window\_in\_days, (OPTIONAL) policy, (OPTIONAL) enable\_key\_rotation. The enable\_key\_rotation variable is a boolean. | `list(any)` | n/a | yes |
+| <a name="input_keys"></a> [keys](#input\_keys) | Schema list of KMS Keys, consisting of alias, (OPTIONAL) description, (OPTIONAL) deletion\_window\_in\_days, (OPTIONAL) policy, (OPTIONAL) enable\_key\_rotation. The enable\_key\_rotation variable is a boolean. | `list(any)` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| keys | Maps of alias => key objects |
+| <a name="output_keys"></a> [keys](#output\_keys) | Maps of alias => key objects |
 
 <!-- END TFDOCS -->
